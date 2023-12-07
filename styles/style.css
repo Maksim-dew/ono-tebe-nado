@@ -1,5 +1,9 @@
 /* место для вашего кода */
 
+* {
+  scroll-behavior: smooth;
+}
+
 .header {
   margin: 100px 50px 92px 50px;
   display: flex;
