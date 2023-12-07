@@ -250,7 +250,7 @@
   margin: 0 50px 50px;
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
   gap: 356px;
 }
 
