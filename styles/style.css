@@ -93,6 +93,7 @@ body {
 }
 
 .letter-spacing_right {
+  margin-right: -30px;
   text-align: right;
 }
 
