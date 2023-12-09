@@ -12,6 +12,7 @@ body {
 .header__menu {
   flex: 0 0 auto;
   width: 44.5%;
+  font-size: 18px;
 }
 
 .header {
@@ -19,7 +20,6 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  font-size: 18px;
 }
 
 .header__links-list {
@@ -32,7 +32,12 @@ body {
   list-style-type: none;
 }
 
-.header__link_active {
+.header__link_active_lots {
+  list-style: circle;
+  text-decoration: underline;
+}
+
+.header__link_active_about {
   list-style: circle;
   text-decoration: underline;
 }
@@ -48,6 +53,7 @@ body {
 }
 
 .header__address {
+  font-size: 18px;
   flex: 0 0 auto;
   width: 33.5%;
   line-height: 135%;
@@ -135,6 +141,7 @@ body {
 .lots__heading {
   padding: 0 50px 27px 90px;
   font-size: 40px;
+  font-weight: 700;
   text-transform: uppercase;
 }
 
@@ -226,13 +233,14 @@ body {
   border-radius: 50%;
   margin: 0 95px;
   display: flex;
-  height: 240px;
+  max-height: 240px;
   justify-content: center;
   align-items: center;
 }
 
 .about__logo-image {
   width: 148px;
+  height: 240px;
 }
 
 .about__column_text {
@@ -264,7 +272,11 @@ body {
   justify-content: space-between;
 }
 
-.footer__link_active {
+.footer__link_active_lots {
+  text-decoration: underline;
+}
+
+.footer__link_active_about {
   text-decoration: underline;
 }
 
@@ -278,7 +290,7 @@ body {
   width: 100%;
 }
 
-.socials {
+.footer__socials {
   display: flex;
   flex-direction: row;
   justify-self: end;

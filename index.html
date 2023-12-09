@@ -11,15 +11,15 @@
   </head>
   <body>
     <header class="header" id="header">
-      <nav class="header__menu header__links-list-item_no-bullit">
+      <nav class="header__menu">
         <ul class="header__links-list">
           <li class="header__links-list-item header__link">
             <a href="#header">главная</a>
           </li>
-          <li class="header__links-list-item header__link_active">
+          <li class="header__links-list-item header__link_active_lots">
             <a href="#lots">посмотреть лоты</a>
           </li>
-          <li class="header__links-list-item header__link_active">
+          <li class="header__links-list-item header__link_active_about">
             <a href="#about">об аукционе</a>
           </li>
         </ul>
@@ -58,7 +58,7 @@
             <p class="cover__description-text">
               Аукцион вещей, в которые никто не верил
             </p>
-            <button class="bet-button">Сделать ставку</button>
+            <button class="bet-button" type="button">Сделать ставку</button>
           </div>
         </div>
       </section>
@@ -85,10 +85,10 @@
             <a class="card-link" href="#">
               <article class="card card_type_book">
                 <div class="overlay">
-                  <h2 class="card__title">
+                  <h3 class="card__title">
                     Книга, где описан один скучный день из жизни рекламного
                     агента
-                  </h2>
+                  </h3>
                   <p class="card__text">
                     Объёмом почти в тысячу страниц. Иногда без знаков препинания
                     и с переходами на древнеанглийский. В ней одновременно
@@ -105,9 +105,9 @@
             <a class="card-link" href="#">
               <article class="card card_type_picture">
                 <div class="overlay">
-                  <h2 class="card__title">
+                  <h4 class="card__title">
                     Картина, которую повторит даже 5-летний сын маминой подруги
-                  </h2>
+                  </h4>
                   <p class="card__text">
                     Ну действительно, там линия, тут кружочек, а здесь и вовсе
                     что-то похожее на инфузорию-туфельку. Никаких полей, лесов,
@@ -160,24 +160,22 @@
         <a href="mailto:info@sobaka.ge">info@sobaka.ge</a><br />
         наб. Принсенграхт 263-265,<br />Амстердам
       </address>
-      <nav class="footer__menu footer__links-list-item_no-bullit">
+      <nav class="footer__menu">
         <ul class="footer__links-list">
           <li class="footer__links-list-item footer__link">
             <a href="#header">главная</a>
           </li>
-          <li class="footer__links-list-item footer__link_active">
+          <li class="footer__links-list-item footer__link_active_lots">
             <a href="#lots">посмотреть лоты</a>
           </li>
-          <li class="footer__links-list-item footer__link_active">
+          <li class="footer__links-list-item footer__link_active_about">
             <a href="#about">об аукционе</a>
           </li>
         </ul>
       </nav>
-      <div class="socials">
+      <div class="footer__socials">
         <a class="footer__logo"
-          ><img class="footer__logo-image" 
-          src="./images/yt.svg" 
-          alt="YouTube"
+          ><img class="footer__logo-image" src="./images/yt.svg" alt="YouTube"
         /></a>
         <a class="footer__logo"
           ><img
