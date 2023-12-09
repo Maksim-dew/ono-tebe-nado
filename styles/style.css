@@ -32,12 +32,7 @@ body {
   list-style-type: none;
 }
 
-.header__link_active_lots {
-  list-style: circle;
-  text-decoration: underline;
-}
-
-.header__link_active_about {
+.header__links-list-item_active {
   list-style: circle;
   text-decoration: underline;
 }
@@ -243,7 +238,7 @@ body {
   height: 240px;
 }
 
-.about__column_text {
+.about__column-text {
   display: flex;
   flex-direction: column;
   justify-self: start;
